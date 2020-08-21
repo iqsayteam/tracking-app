@@ -1,0 +1,14 @@
+<ion-app>
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Tracking App</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-segment>
+      <ion-segment-button (click)="btnUpdateLocation(true)">Ativar</ion-segment-button>
+      <ion-segment-button (click)="btnUpdateLocation(false)">Pausar</ion-segment-button>
+    </ion-segment>
+    <div id="mapId" style="margin: auto; width: 90%; height: 60%"></div>
+  </ion-content>
+</ion-app>
