@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@ionic/cli-plugin-cordova": "1.6.2",
+    "@ionic/cli-plugin-ionic1": "2.1.1"
+  }
+}
